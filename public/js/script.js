@@ -1,4 +1,4 @@
-const apiKey = CONFIG.API_KEY;
+const apiKey = "36b06f5875e04f2b859130012252407";
 
 let temperature_C;
 let temperature_F;

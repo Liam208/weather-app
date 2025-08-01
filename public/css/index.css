@@ -12,3 +12,27 @@ p, h3,h4{
 .wind, .humidity{
     color: white;
 }
+
+        #wind,
+        #noCity {
+            white-space: nowrap;
+        }
+
+        .spinner-border {
+            width: 36px;
+            /* Or whatever size you prefer */
+            height: 36px;
+            /* Must match width for a perfect circle */
+            border-radius: 50% !important;
+            /* Keep this for circular shape */
+            display: inline-block;
+            /* Ensures width/height are respected */
+            vertical-align: -0.125em;
+            /* Helps with vertical alignment if needed */
+            border: 0.25em solid currentColor;
+            /* Default border */
+            border-right-color: transparent;
+            /* Creates the spinning effect */
+
+            /* Animation for spinning */
+        }

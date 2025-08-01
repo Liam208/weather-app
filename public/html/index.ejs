@@ -9,34 +9,20 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../icons/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <style>
-        #wind,
-        #noCity {
-            white-space: nowrap;
-        }
 
-        .spinner-border {
-            width: 36px;
-            /* Or whatever size you prefer */
-            height: 36px;
-            /* Must match width for a perfect circle */
-            border-radius: 50% !important;
-            /* Keep this for circular shape */
-            display: inline-block;
-            /* Ensures width/height are respected */
-            vertical-align: -0.125em;
-            /* Helps with vertical alignment if needed */
-            border: 0.25em solid currentColor;
-            /* Default border */
-            border-right-color: transparent;
-            /* Creates the spinning effect */
-
-            /* Animation for spinning */
-        }
-    </style>
 </head>
 
 <body>
+
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+            <span class="navbar-brand text-light fw-bold h5">Weather App</span>
+            <form class="d-flex">
+                <a href="/login" class="btn btn-warning me-3">Login</a>
+                <a href="/signup" class="btn btn-danger">Signup</a>
+            </form>
+        </div>
+    </nav>
     <div class="container d-flex justify-content-center align-items-center vh-100">
 
         <div class="card border border-2 border-primary align-items-center" style="width: 18rem;">
