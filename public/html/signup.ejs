@@ -137,7 +137,14 @@
                         method: 'POST',
                         body: JSON.stringify({email, password}),
                         headers: {'Content-Type': 'application/json'}
-                    })
+                    });
+                    const data = await res.json();
+                    if(data.errors){
+                        //code for showing error data.errors.email : data.errors.password
+                    }
+                    if(data.user) {
+                        location.assign('/')
+                    }
                 } catch (error) {
                     console.error(error)
                 }
